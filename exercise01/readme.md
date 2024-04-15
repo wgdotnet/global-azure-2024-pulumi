@@ -132,3 +132,17 @@ organization/WgDotnet.Exercise01/dev                 2 minutes ago  1
 |           | Outside of Pulumi Cloud | Inside Pulumi Cloud |
 | --------- | ----------------------- | ------------------- |
 | `orgName` | `"organization"`        | configurable         |
+
+### The project name
+
+The `projectName` can be found in `Pulumi.yaml` under the `name` key:
+
+```yaml
+name: WgDotnet.Exercise01
+runtime: dotnet
+description: A minimal C# Pulumi program
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: csharp
+```
