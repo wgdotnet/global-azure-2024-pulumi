@@ -1,0 +1,7 @@
+name: WgDotNet.Exercise02.Stack02
+runtime: dotnet
+description: A minimal C# Pulumi program
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: csharp
