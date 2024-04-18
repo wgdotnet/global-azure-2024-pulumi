@@ -1,10 +1,8 @@
 # Exercise01
 
-## Local Environment Setup
+## Goal
 
-```
-
-```
+The objective of this exercise is to ensure that everything works as intended, and to deploy a simple stack with an output.
 
 ## The state backend
 
@@ -28,6 +26,7 @@ See: [pulumi login](https://www.pulumi.com/docs/cli/commands/pulumi_login/#pulum
 In order to avoid repeating prompts for pulumi password, you can set the following environment variable:
 
 ```bash
+# add to ~/.rc file
 export PULUMI_CONFIG_PASSPHRASE=""
 ```
 
@@ -42,7 +41,7 @@ Ensure you are logged in to Pulumi
 
 - `pulumi login --local`
 
-Star exercise01
+## Start exercise01
 
 - `cd /exercise01/src/WgDotnet.Exercise01`
 - `pulumi preview --stack dev`
@@ -90,7 +89,7 @@ Resources:
 Duration: 1s
 ```
 
-## Verifying the outcome
+### Verifying the outcome
 
 - Ensure you're still in `/exercise01/src/WgDotnet.Exercise01`
 - `pulumi stack ls --all`

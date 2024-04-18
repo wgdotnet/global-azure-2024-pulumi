@@ -30,6 +30,12 @@ This is a community workshop, designed to last ~4hrs. During this workshop you w
 
 ## Exercises
 
-| Exercise | Description |
-| -------- | ----------- |
-|          |             |
+> :warning:
+>
+> This workshop is run in dotnet. It is assumed you have basic dotnet skills and are capable of working on your own, using provided guidelines and documentation
+
+| Exercise                             | Description      |
+| ------------------------------------ | ---------------- |
+| [exercise01](./exercise01/readme.md) | Getting started  |
+| [exercise02](./exercise02/readme.md) | Inputs & Outputs |
+
