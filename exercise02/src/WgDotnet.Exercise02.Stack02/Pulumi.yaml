@@ -1,4 +1,4 @@
-name: WgDotNet.Exercise02.Stack02
+name: WgDotnet.Exercise02.Stack02
 runtime: dotnet
 description: A minimal C# Pulumi program
 config:
