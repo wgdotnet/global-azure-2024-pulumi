@@ -27,6 +27,8 @@ This is a community workshop, designed to last ~4hrs. During this workshop you w
 - An Azure Subscription
 - [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) installed
 - [Pulumi CLI](https://www.pulumi.com/docs/install/) installed
+- [NodeJS](https://nodejs.org/en) installed
+- [TypeScript](https://www.typescriptlang.org/) installed
 
 ## Exercises
 
@@ -40,6 +42,7 @@ This is a community workshop, designed to last ~4hrs. During this workshop you w
 | [exercise02](./exercise02/readme.md) | Inputs & Outputs    |
 | [exercise03](./exercise03/readme.md) | Component Resources |
 | [exercise04](./exercise04/readme.md) | Orchestration       |
+| [exercise04](./exercise05/readme.md) | Policies            |
 
 ## Exercise Answers
 
