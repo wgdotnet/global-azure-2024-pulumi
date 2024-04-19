@@ -4,6 +4,17 @@
 
 The goal of this exercise is to start getting some hands-on experience with Pulumi, using the `azure-native` provider. While doing so, you will deploy 2 stacks, and exchange information between them using a `StackReference`
 
+## Resource names
+
+:warning: Whenever a Pulumi resource is created, a `name` parameter is passed as the 1st argument. This parameter sets the resource's identifier, and is used to generate the resources' target name with a random suffix.
+
+In order to avoid random resource names, pay attention to `Args` arguments passed to Pulumi resources, as they typically contain properties that set the resources' name directly.
+
+**Example property names:**
+- `ResourceName`
+- `RuleName`
+etc.
+
 ## StackReferences & Outputs
 
 In order to consume outputs of a stack by another stack, a [StackReference](https://www.pulumi.com/docs/reference/pkg/dotnet/Pulumi/Pulumi.StackReference.html) can be used.
