@@ -101,3 +101,7 @@ For the purpose of this exercise, we are going to re-use code from [exercise02](
 ### Pulumi Destroy
 
 - Implement NUKE targets that will execute `pulumi destroy` on exercise02 stacks in reverse order to the one in which they were created
+
+## Verification
+
+- Verify the targets are working properly by invoking `dotnet nuke --target <TargetName>`.
