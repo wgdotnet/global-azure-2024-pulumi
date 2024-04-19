@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WgDotnet.Exercise03", "WgDotnet.Exercise03\WgDotnet.Exercise03.csproj", "{15000B80-A70E-4CBF-92EE-08BC630B067E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WgDotnet.Exercise03.Tests", "WgDotnet.Exercise03.Tests\WgDotnet.Exercise03.Tests.csproj", "{77F10314-2ADD-4FE9-9808-FEAE697E5F3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15000B80-A70E-4CBF-92EE-08BC630B067E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15000B80-A70E-4CBF-92EE-08BC630B067E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15000B80-A70E-4CBF-92EE-08BC630B067E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15000B80-A70E-4CBF-92EE-08BC630B067E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77F10314-2ADD-4FE9-9808-FEAE697E5F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F10314-2ADD-4FE9-9808-FEAE697E5F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F10314-2ADD-4FE9-9808-FEAE697E5F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F10314-2ADD-4FE9-9808-FEAE697E5F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
