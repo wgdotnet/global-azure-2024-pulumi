@@ -27,6 +27,8 @@ This is a community workshop, designed to last ~4hrs. During this workshop you w
 - An Azure Subscription
 - [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) installed
 - [Pulumi CLI](https://www.pulumi.com/docs/install/) installed
+- [NodeJS](https://nodejs.org/en) installed
+- [TypeScript](https://www.typescriptlang.org/) installed
 
 ## Exercises
 
