@@ -39,9 +39,9 @@ This is a community workshop, designed to last ~4hrs. During this workshop you w
 | [exercise01](./exercise01/readme.md) | Getting started     |
 | [exercise02](./exercise02/readme.md) | Inputs & Outputs    |
 | [exercise03](./exercise03/readme.md) | Component Resources |
+| [exercise04](./exercise04/readme.md) | Orchestration       |
 
 ## Exercise Answers
 
 We believe in learning by doing. Therefore we do not provide direct answers, but rather place emphasis on guiding you towards the desired solution(s).
-
 In order to make the most of this workshop, you will need to work though it (if needed at your own pace, at home).
