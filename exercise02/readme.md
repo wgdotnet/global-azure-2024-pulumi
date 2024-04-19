@@ -4,6 +4,8 @@
 
 The goal of this exercise is to start getting some hands-on experience with Pulumi, using the `azure-native` provider. While doing so, you will deploy 2 stacks, and exchange information between them using a `StackReference`
 
+See: [https://www.pulumi.com/docs/using-pulumi/organizing-projects-stacks/](https://www.pulumi.com/docs/using-pulumi/organizing-projects-stacks/)
+
 ## Resource names
 
 :warning: Whenever a Pulumi resource is created, a `name` parameter is passed as the 1st argument. This parameter sets the resource's identifier, and is used to generate the resources' target name with a random suffix.
@@ -67,4 +69,3 @@ var vaultRef = (
 
 - navigate to `/exercise02/src` folder and examine both projects which are a part of the solution.
 - follow the comments in order to implement the solution
-
