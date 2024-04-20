@@ -69,3 +69,17 @@ var vaultRef = (
 
 - navigate to `/exercise02/src` folder and examine both projects which are a part of the solution.
 - follow the comments in order to implement the solution
+
+###  Hints
+
+#### Defining stack outputs
+
+Stack outputs can be defined in the following way
+
+```csharp
+public class MyStack: Stack
+{
+  [Output] public Output<string> Name { get; set; }
+  [Output] public Output<string> ResourceGroupName { get; set; }
+}
+```
