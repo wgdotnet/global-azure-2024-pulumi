@@ -13,9 +13,10 @@ See: [https://www.pulumi.com/docs/using-pulumi/organizing-projects-stacks/](http
 In order to avoid random resource names, pay attention to `Args` arguments passed to Pulumi resources, as they typically contain properties that set the resources' name directly.
 
 **Example property names:**
+
 - `ResourceName`
 - `RuleName`
-etc.
+  etc.
 
 ## StackReferences & Outputs
 
@@ -70,7 +71,7 @@ var vaultRef = (
 - navigate to `/exercise02/src` folder and examine both projects which are a part of the solution.
 - follow the comments in order to implement the solution
 
-###  Hints
+### Hints
 
 #### Defining stack outputs
 
@@ -82,4 +83,16 @@ public class MyStack: Stack
   [Output] public Output<string> Name { get; set; }
   [Output] public Output<string> ResourceGroupName { get; set; }
 }
+```
+
+#### Listing StorageAccount Keys
+
+```csharp
+(ResourceGroup ResourceGroup, StorageAccount Resource) storage = // (...);
+bool primary = true;
+ListStorageAccountKeys.Invoke(new ListStorageAccountKeysInvokeArgs()
+{
+  ResourceGroupName = storage.ResourceGroup.Name,
+  AccountName = storage.Resource.Name
+}).Apply(x => x.Keys[primary ? 0 : 1].Value);
 ```
